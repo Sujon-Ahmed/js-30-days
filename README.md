@@ -4,5 +4,5 @@
 
 view demos [here](https://sujon-ahmed.github.io/JS30/)
 
-1. [JS Drum Kit](https://github.com/Sujon-Ahmed/JS30/blob/main/01.JSDrumKit/README.md)
-1. [JS + CSS Clock](https://github.com/Sujon-Ahmed/JS30/blob/main/02.JS+CSSClock/README.md)
+1. [JS Drum Kit](https://github.com/Sujon-Ahmed/JS30/blob/main/01-JSDrumKit/README.md)
+1. [JS + CSS Clock](https://github.com/Sujon-Ahmed/JS30/blob/main/02-JS+CSSClock/README.md)
