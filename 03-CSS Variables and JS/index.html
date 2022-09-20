@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Sujon Ahmed" />
+    <title>Scoped CSS Variables and JS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>Update CSS Variables <br/>with <span class='hl'>JS</span></h2>
+    <div class="controller">
+        <label for="spacing">Spacing</label>
+        <input type="range" name="spacing" id="spacing" min="10" max="100" value="10" data-sizing="px" />
+        
+        <label for="blur">blur</label>
+        <input type="range" name="blur" id="blur" min="0" max="25" value="10" data-sizing="px" />
+
+        <label for="base">Base</label>
+        <input type="color" name="base" id="base" value="#ffc600" />
+    </div>
+    <img src="https://cdn.pixabay.com/photo/2021/10/25/08/55/nature-6740243_960_720.jpg">
+    <script src="app.js"></script>
+  </body>
+</html>

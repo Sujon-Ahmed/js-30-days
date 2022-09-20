@@ -1,0 +1,8 @@
+const inputs = document.querySelectorAll('.controller input');
+function handleUpdate() {
+    const suffix = this.dataset.sizing || ''; // '' if don't have sizing, or will get undefined
+    // console.log(suffix);
+    document.documentElement.style.setProperty(`--${this.name}`, this.value + suffix);
+}
+inputs.forEach(input => input.addEventListener('change', handleUpdate));
+inputs.forEach(input => input.addEventListener('mousemove', handleUpdate));
