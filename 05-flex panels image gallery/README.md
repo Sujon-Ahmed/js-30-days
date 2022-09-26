@@ -4,7 +4,7 @@
 
 ![](images/05_00.png)
 
-view demo [here](https://sujon-ahmed.github.io/JS30/05-Flex%20Panels%20Image%20Gallery/index.html)
+view demo [here](https://sujon-ahmed.github.io/JS30/05-flex%20panels%20image%20gallery/index.html)
 
 CSS `flex`, `toggle()`, `includes()`, `transitionend`
 
